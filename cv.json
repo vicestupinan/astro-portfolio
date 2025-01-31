@@ -1,48 +1,56 @@
 {
-    "basics": {
-      "name": "Victor Manuel Estupinan Soto",
-      "label": "Fullstack Developer con 2 años de experiencia",
-      "image": "",
-      "email": "victor.estupinan96@hotmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "Cali",
-        "countryCode": "CO",
-        "region": "Colombia"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Victor Manuel Estupiñan Soto",
+    "label": "Fullstack Developer con 2 años de experiencia.",
+    "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2017/07/13/f35f87b7-93ee-4d30-935a-dbfdb77d22cd/hollow-knight-switch.jpg.jpg",
+    "email": "victor.estupinan96@hotmail.com",
+    "phone": "(+57) 3128873898",
+    "url": "https://johndoe.com",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "Cali",
+      "countryCode": "CO",
+      "region": "Colombia"
     },
-    "work": [{
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "victor-estupinan",
+        "url": "https://www.linkedin.com/in/victor-estupinan-705711243"
+      },
+      {
+        "network": "GitHub",
+        "username": "victor-estupinan",
+        "url": "https://github.com/vicestupinan"
+      }
+    ]
+  },
+  "work": [
+    {
       "name": "Company",
       "position": "President",
       "url": "https://company.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
       "institution": "University",
       "url": "https://institution.com/",
       "area": "Software Development",
@@ -50,61 +58,67 @@
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
       "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [{
+    }
+  ],
+  "skills": [
+    {
       "name": "Web Development",
       "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
       "language": "English",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [{
+    }
+  ],
+  "projects": [
+    {
       "name": "Project",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
+      "highlights": ["Won award at AIHacks 2016"],
       "url": "https://project.com/"
-    }]
-  }
+    }
+  ]
+}
