@@ -26,7 +26,8 @@
     letter-spacing: -0.025em;
   }
 
-  body, figure {
+  body,
+  figure {
     margin: 0;
     padding: 0;
   }
@@ -66,10 +67,24 @@
   }
 
   p {
-	color: #888;
-	font-size: .8rem;
-	line-height: 1.5;
-	margin: 0;
-	text-wrap: pretty;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
+
+    .no-print {
+      display: none !important;
+    }
   }
 </style>
