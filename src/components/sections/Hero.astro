@@ -14,6 +14,14 @@ const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
   GitHub,
 };
+
+const linkedinInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedinUrl = linkedinInfo?.url;
+
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+
+const printInfo = [email, phone, linkedinUrl, githubUrl].join(" • ");
 ---
 
 <Section>
@@ -25,7 +33,10 @@ const SOCIAL_ICONS: Record<string, any> = {
         <WorldMap />
         {city}, {region}
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -117,6 +128,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   footer {
+    color: #555;
+    font-size: .65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;

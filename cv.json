@@ -5,11 +5,11 @@
     "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2017/07/13/f35f87b7-93ee-4d30-935a-dbfdb77d22cd/hollow-knight-switch.jpg.jpg",
     "email": "victor.estupinan96@hotmail.com",
     "phone": "(+57) 3128873898",
-    "url": "https://johndoe.com",
+    "url": "",
     "summary": "Desarrollador de Software con 2 años de experiencia. Experiencia en el ciclo de vida completo de desarrollo de software, desde el diseño hasta la implementación y mantenimiento. Conocimiento en metodologías ágiles (Scrum) y prácticas de desarrollo colaborativo. Habilidades en programación, resolución de problemas y optimización de código. Familiarizado con herramientas de control de versiones, integración continua y desarrollo orientado a pruebas (TDD).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": "",
+      "postalCode": "",
       "city": "Cali",
       "countryCode": "CO",
       "region": "Colombia"
@@ -29,12 +29,21 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "DTrueStar",
+      "position": "Fullstack Developer",
+      "url": "dtruestar.com.co",
+      "startDate": "01-01-2022",
+      "endDate": "01-01-2025",
+      "summary": "Diseño e implementación de microservicios para la gestión de sistemas de comercio electrónico, trabajando en colaboración con el equipo front-end para garantizar una integración fluida entre los microservicios y las interfaces de usuario. Desarrollo de nuevas funcionalidades adaptadas a las necesidades del cliente, mejorando la funcionalidad general del software. Optimización y ajuste de funcionalidades existentes, incluyendo la mejora de consultas SQL para aumentar el rendimiento de las aplicaciones y reducir los tiempos de respuesta en operaciones críticas.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "DTrueStar",
+      "position": "QA Tester",
+      "url": "dtruestar.com.co",
+      "startDate": "01-01-2022",
+      "endDate": "01-01-2025",
+      "summary": "Análisis de procesos y documentación de funcionalidades en los proyectos para la implementación de la estrategia de SQA. Diseño y ejecución de casos de prueba basados en el proceso de análisis, incluyendo su automatización. Reporte de hallazgos, como no conformidades, mejoras, sugerencias y preguntas, durante la ejecución de pruebas para facilitar la toma de acciones correctivas.",
       "highlights": ["Started the company"]
     }
   ],
@@ -51,12 +60,12 @@
   ],
   "education": [
     {
-      "institution": "University",
+      "institution": "Universidad San Buenaventura Cali",
       "url": "https://institution.com/",
-      "area": "Software Development",
+      "area": "Ingeniería de Sistemas",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "01-01-2015",
+      "endDate": "01-01-2024",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -88,15 +97,60 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "JavaScript",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "keywords": ["Language"]
+    },
+    {
+      "name": "Node",
+      "level": "Master",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": ["Language"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Master",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "C#",
+      "level": "Master",
+      "keywords": ["Language"]
+    },
+    {
+      "name": ".NET",
+      "level": "Master",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Master",
+      "keywords": ["Database"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Master",
+      "keywords": ["Database"]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": ["Version Control"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Master",
+      "keywords": ["Version Control"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "A2"
     }
   ],
   "interests": [
@@ -113,12 +167,11 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "HiloTexcol",
+      "isActive": true,
+      "description": "Comercio electrónico de productos textiles.",
+      "highlights": ["Comercio electrónico", "En desarrollo"],
+      "url": "http://51.161.152.74:82/client/clientDashBoard/homePage"
     }
   ]
 }
