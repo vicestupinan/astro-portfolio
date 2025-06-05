@@ -1,48 +1,44 @@
-# Astro Starter Kit: Basics
+# 📄 Personal Portfolio (CV) — Built with Astro
+This is my personal portfolio website, built with Astro, showcasing my skills, experience, and professional background as a backend software developer. 
+🧠 This project is based on a tutorial by @midudev.
 
-```sh
-npm create astro@latest -- --template basics
-```
+## 🚀 Live Demo
+You can view the live version here:
+🔗 https://astro-portfolio-orpin-two.vercel.app
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🛠️ Tech Stack
+Framework: Astro
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Languages: HTML, CSS, JavaScript
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Deployment: Vercel
 
-## 🚀 Project Structure
+## 🎯 Features
+Fully responsive layout
 
-Inside of your Astro project, you'll see the following folders and files:
+Clean, modern design
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Includes sections for:
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+About Me
 
-## 🧞 Commands
+Work Experience
 
-All commands are run from the root of the project, from a terminal:
+Skills & Tools
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Contact information
 
-## 👀 Want to learn more?
+## 📦 Getting Started
+To run this project locally:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Clone the repository
+git clone https://github.com/vicestupinan/astro-portfolio
+
+# Go to the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the local development server
+npm run dev
