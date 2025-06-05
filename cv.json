@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Victor Manuel Estupiñan Soto",
-    "label": "Fullstack Developer con 2 años de experiencia.",
+    "label": "Backend Developer con 2 años de experiencia.",
     "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2017/07/13/f35f87b7-93ee-4d30-935a-dbfdb77d22cd/hollow-knight-switch.jpg.jpg",
     "email": "victor.estupinan96@hotmail.com",
     "phone": "(+57) 3128873898",
     "url": "",
-    "summary": "Desarrollador de Software con 2 años de experiencia. Experiencia en el ciclo de vida completo de desarrollo de software, desde el diseño hasta la implementación y mantenimiento. Conocimiento en metodologías ágiles (Scrum) y prácticas de desarrollo colaborativo. Habilidades en programación, resolución de problemas y optimización de código. Familiarizado con herramientas de control de versiones, integración continua y desarrollo orientado a pruebas (TDD).",
+    "summary": "Desarrollador de Software Backend con 3 años de experiencia en Java y JavaScript. Especializado en el diseño y mantenimiento de microservicios utilizando Spring Boot, así como en la creación de APIs RESTful. Poseo conocimientos en prácticas DevOps, incluyendo control de versiones con Git, pruebas automatizadas con JUnit y despliegue continuo mediante Jenkins.He desarrollado habilidades de liderazgo, facilitando reuniones diarias (Daily), retrospectivas y revisiones dentro de equipos ágiles que aplican metodologías como Scrum y Kanban. También cuento con experiencia en AWS, habiendo trabajado con diversos servicios como S3, Lambda, CloudWatch, API Gateway, EC2 y RDS.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "victor-estupinan",
-        "url": "https://www.linkedin.com/in/victor-estupinan-705711243"
+        "url": "www.linkedin.com/in/victor-estupiñan-15bab9367"
       },
       {
         "network": "GitHub",
@@ -30,20 +30,11 @@
   "work": [
     {
       "name": "DTrueStar",
-      "position": "Fullstack Developer",
+      "position": "Backend Developer",
       "url": "dtruestar.com.co",
       "startDate": "01-01-2022",
-      "endDate": "01-01-2025",
+      "endDate": "Actualidad",
       "summary": "Diseño e implementación de microservicios para la gestión de sistemas de comercio electrónico, trabajando en colaboración con el equipo front-end para garantizar una integración fluida entre los microservicios y las interfaces de usuario. Desarrollo de nuevas funcionalidades adaptadas a las necesidades del cliente, mejorando la funcionalidad general del software. Optimización y ajuste de funcionalidades existentes, incluyendo la mejora de consultas SQL para aumentar el rendimiento de las aplicaciones y reducir los tiempos de respuesta en operaciones críticas.",
-      "highlights": ["Started the company"]
-    },
-    {
-      "name": "DTrueStar",
-      "position": "QA Tester",
-      "url": "dtruestar.com.co",
-      "startDate": "01-01-2022",
-      "endDate": "01-01-2025",
-      "summary": "Análisis de procesos y documentación de funcionalidades en los proyectos para la implementación de la estrategia de SQA. Diseño y ejecución de casos de prueba basados en el proceso de análisis, incluyendo su automatización. Reporte de hallazgos, como no conformidades, mejoras, sugerencias y preguntas, durante la ejecución de pruebas para facilitar la toma de acciones correctivas.",
       "highlights": ["Started the company"]
     }
   ],
@@ -97,17 +88,12 @@
   ],
   "skills": [
     {
-      "name": "JavaScript",
+      "name": "Java",
       "level": "Master",
       "keywords": ["Language"]
     },
     {
-      "name": "Node",
-      "level": "Master",
-      "keywords": ["Framework"]
-    },
-    {
-      "name": "Java",
+      "name": "JavaScript",
       "level": "Master",
       "keywords": ["Language"]
     },
@@ -117,22 +103,17 @@
       "keywords": ["Framework"]
     },
     {
-      "name": "C#",
-      "level": "Master",
-      "keywords": ["Language"]
-    },
-    {
-      "name": ".NET",
+      "name": "Express",
       "level": "Master",
       "keywords": ["Framework"]
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "level": "Master",
       "keywords": ["Database"]
     },
     {
-      "name": "PostgreSQL",
+      "name": "NOSQL",
       "level": "Master",
       "keywords": ["Database"]
     },
@@ -140,17 +121,12 @@
       "name": "Git",
       "level": "Master",
       "keywords": ["Version Control"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Master",
-      "keywords": ["Version Control"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "A2"
+      "fluency": "B1"
     }
   ],
   "interests": [
@@ -169,9 +145,22 @@
     {
       "name": "HiloTexcol",
       "isActive": true,
-      "description": "Comercio electrónico de productos textiles.",
-      "highlights": ["Comercio electrónico", "En desarrollo"],
+      "description": "Desarrollo de un sistema de gestión para la empresa HiloTexcol, que incluye funcionalidades para la gestión de inventarios, ventas y reportes. Trabajado en la empresa DTrueStar.",
+      "highlights": [
+        "Java",
+        "JavaScript",
+        "Spring Boot",
+        "React",
+        "Comercio electrónico"
+      ],
       "url": "http://51.161.152.74:82/client/clientDashBoard/homePage"
+    },
+    {
+      "name": "TaskFlowApi",
+      "isActive": true,
+      "description": "Desarrollo de una API RESTful para la gestión de tareas y flujos de trabajo, con integración de autenticación y autorización. Implementado en Java con Spring Boot.",
+      "highlights": ["Java","Spring Boot"],
+      "url": "https://github.com/vicestupinan/taskflow"
     }
   ]
 }
