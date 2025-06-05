@@ -31,14 +31,14 @@ Contact information
 ## 📦 Getting Started
 To run this project locally:
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/vicestupinan/astro-portfolio
 
-# Go to the project directory
+### Go to the project directory
 cd your-repo-name
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start the local development server
+### Start the local development server
 npm run dev
