@@ -34,7 +34,7 @@
       "url": "dtruestar.com.co",
       "startDate": "01-01-2022",
       "endDate": null,
-      "summary": "Diseño e implementación de microservicios para la gestión de sistemas de comercio electrónico, trabajando en colaboración con el equipo front-end para garantizar una integración fluida entre los microservicios y las interfaces de usuario. Desarrollo de nuevas funcionalidades adaptadas a las necesidades del cliente, mejorando la funcionalidad general del software. Optimización y ajuste de funcionalidades existentes, incluyendo la mejora de consultas SQL para aumentar el rendimiento de las aplicaciones y reducir los tiempos de respuesta en operaciones críticas.",
+      "summary": "Como desarrollador Back-end remoto, participé en el diseño y desarrollo de microservicios utilizando Spring Boot y PostgreSQL para plataformas de comercio electrónico. Me encargué de implementar pruebas unitarias con JUnit, contribuir a procesos de integración y despliegue continuo con Jenkins, y colaborar estrechamente con el equipo front-end para asegurar una integración fluida. Además, desarrollé nuevas funcionalidades según requerimientos del cliente y optimicé consultas SQL y código existente para mejorar el rendimiento del sistema.",
       "highlights": ["Started the company"]
     }
   ],
