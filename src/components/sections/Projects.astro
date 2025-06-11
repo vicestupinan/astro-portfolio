@@ -1,4 +1,5 @@
 ---
+import GitHub from "@/icons/GitHub.astro";
 import Section from "../Section.astro";
 
 import { projects } from "@cv";
@@ -7,33 +8,47 @@ import { projects } from "@cv";
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(({ url, description, highlights, name, isActive }) => {
-        return (
-          <li>
-            <article>
-              <header>
-                <h3>
-                  <a
-                    href={url}
-                    title={`Ver el proyecto ${name}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {name}
-                  </a>
-                  {isActive && <span>&bull;</span>}
-                </h3>
-                <p>{description}</p>
-              </header>
-              <footer>
-                {highlights.map((highlight) => {
-                  return <span>{highlight}</span>;
-                })}
-              </footer>
-            </article>
-          </li>
-        );
-      })
+      projects.map(
+        ({ url, description, highlights, name, isActive, githubUrl }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <h3>
+                    <div>
+                      <a
+                        href={url}
+                        title={`Ver el proyecto ${name}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                      {isActive && <span>&bull;</span>}
+                    </div>
+                    {githubUrl && (
+                      <a
+                        href={githubUrl}
+                        title={`Ver el repositorio de ${name} en GitHub`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                  </h3>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>;
+                  })}
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
     }
   </ul>
 </Section>
@@ -61,6 +76,8 @@ import { projects } from "@cv";
   }
 
   article h3 {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 4px;
   }
 

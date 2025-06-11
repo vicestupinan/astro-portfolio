@@ -153,21 +153,24 @@
         "React",
         "Comercio electrónico"
       ],
-      "url": "http://51.161.152.74:82/client/clientDashBoard/homePage"
+      "url": "http://51.161.152.74:82/client/clientDashBoard/homePage",
+      "githubUrl": null
     },
     {
       "name": "TaskFlowApi",
       "isActive": true,
       "description": "Desarrollo de una API RESTful para la gestión de tareas y flujos de trabajo, con integración de autenticación y autorización. Implementado en Java con Spring Boot.",
       "highlights": ["Java","Spring Boot"],
-      "url": "https://github.com/vicestupinan/taskflow"
+      "url": "https://github.com/vicestupinan/taskflow",
+      "githubUrl": "https://github.com/vicestupinan/taskflow"
     },
     {
       "name": "Remix Contacts",
       "isActive": true,
       "description": "Desarrollo de una aplicación web CRUD para la gestión de contactos utilizando Remix. Permite crear, visualizar, actualizar y eliminar contactos con persistencia de datos en Local Storage. El proyecto está preparado para integrar Prisma como capa de base de datos de forma opcional.",
       "highlights": ["TypeScript","Remix"],
-      "url": "https://contacts-remix-ten.vercel.app/"
+      "url": "https://contacts-remix-ten.vercel.app/",
+      "githubUrl": "https://github.com/vicestupinan/contacts-remix"
     }
   ]
 }
