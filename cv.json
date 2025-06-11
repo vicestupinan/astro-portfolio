@@ -167,7 +167,7 @@
       "isActive": true,
       "description": "Desarrollo de una aplicación web CRUD para la gestión de contactos utilizando Remix. Permite crear, visualizar, actualizar y eliminar contactos con persistencia de datos en Local Storage. El proyecto está preparado para integrar Prisma como capa de base de datos de forma opcional.",
       "highlights": ["TypeScript","Remix"],
-      "url": "https://github.com/vicestupinan/contacts-remix"
+      "url": "https://contacts-remix-ten.vercel.app/"
     }
   ]
 }
